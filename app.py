@@ -22,12 +22,6 @@ st.markdown(
         color: #00FF00 !important;
     }
     </style>
-    """,
-    unsafe_allow_html=True
-)
-
-st.markdown(
-    """
     <canvas id="matrix" style="position: fixed; top: 0; left: 0; z-index: -1; width: 100vw; height: 100vh;"></canvas>
     <script>
         var c = document.getElementById("matrix");
