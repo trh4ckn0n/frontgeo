@@ -11,6 +11,9 @@ BACKEND_URL = "https://backgeo.onrender.com"
 st.markdown(
     """
     <style>
+    footer[class*="st-emotion-cache"] {
+            display: none;
+    }
     body {
         background-color: black;
         color: #00FF00;
