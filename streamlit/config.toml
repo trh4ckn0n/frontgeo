@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#00FF00"  # Vert hacker
+backgroundColor = "#000000"  # Fond noir
+secondaryBackgroundColor = "#101010"  # Noir foncé
+textColor = "#00FF00"  # Texte vert néon
+font = "monospace"
