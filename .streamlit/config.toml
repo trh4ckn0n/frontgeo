@@ -1,7 +1,7 @@
 # Theme: "Dark Anon Red" - Custom Hacker Theme
 [theme]
-primaryColor="#ff0000"  # Rouge vif (Hack/Anon)
-backgroundColor="#000000"  # Fond noir total
-secondaryBackgroundColor="#1a1b23"  # Noir-gris pour les sections
-textColor="#bfb6e6"  # Texte violet clair
+primaryColor="#ff0000"
+backgroundColor="#000000"
+secondaryBackgroundColor="#1f244c"
+textColor="#bfb6e6"
 font = "Calibri"  # Police custom
