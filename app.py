@@ -101,7 +101,7 @@ if option == "Adresse IP":
                     
                     # Affichage de la carte
                     st.write("📍 Localisation approximative :")
-                    folium_static(m)
+                    st.folium(m)
                 else:
                     st.warning("⚠️ Impossible d'afficher la carte, lat/lon non trouvés.")
         else:
