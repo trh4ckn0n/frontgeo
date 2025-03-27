@@ -8,7 +8,7 @@ option = st.selectbox("Choisir une option", ["IP", "Numéro de téléphone"])
 if option == "IP":
     ip = st.text_input("Entrez une IP")
     if st.button("Rechercher"):
-        response = requests.get(f"https://mon-backend.onrender.com/geolocate/ip/{ip}")
+        response = requests.get(f"https://backgeo.onrender.com/geolocate/ip/{ip}")
         st.json(response.json())
 
 elif option == "Numéro de téléphone":
